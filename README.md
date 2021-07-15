@@ -1,1 +1,1 @@
-# kuber-test
+# Test repo for Kubernetes and Helm
