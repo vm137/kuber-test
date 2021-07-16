@@ -10,3 +10,8 @@ http://localhost:8080
 minikube service hello-minikube -url
 kubectl delete services hello-minikube
 kubectl delete deployment hello-minikube
+
+D:\WORK\kuber-test\backend>helm install backend .
+kubectl port-forward service/backend 8080:80
+
+helm get all backend

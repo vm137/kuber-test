@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String hello() {
-        return "Hello!!!";
+        return "Root address queried.";
     }
 
     @RequestMapping("/hello")
